@@ -2,11 +2,14 @@
 
 ## Getting started
 
-- Put `source /path/to/this/repo/.vimrc` into your `~/.vimrc`
+- Run `setup-links.py` to symlink your `~/.vimrc` and package directory to this repo's vimrc and package directory
+- Run `download-packages.py` to download the packages in the package list
+
+## Usage
+
+Make sure to download new packages to this `start/` folder, *not* the `~/.vim/` folder structure
 
 ## To do
 
-- Make a script that automatically makes the global `.vimrc`
-- Or, just symlink it?
-- Consider symlinking `start/`, so that the cloned repos live here, rather than under `~/.vim/`
-- Make it so that the target path isn't hard-coded
+- Put in documentation about how to update the package list
+- Is there a way to allow use of *both* folder locations? Like, can this complement other package lists in `~/.vim/` structure?
