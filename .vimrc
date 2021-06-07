@@ -16,6 +16,9 @@ nmap <leader>w :w!<CR>
 " run makefile with ,m
 nmap <leader>m :make<CR>
 
+" big-Q goes into ex mode; just disable that
+nnoremap Q <Nop>
+
 " pencil-goyo command
 function PG ()
     Pencil
