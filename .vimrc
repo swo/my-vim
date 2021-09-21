@@ -40,7 +40,7 @@ augroup configgroup
     " Shortcuts to run scripts
     autocmd FileType python nnoremap <buffer> <leader>r :w!<CR>:!python3 %<CR>
     " autocmd FileType r nnoremap <buffer> <leader>r :w!<CR>:!Rscript %<CR>
-    autocmd FileType r nnoremap <buffer> <leader>r :w!<CR>:! ./%<CR>
+    autocmd FileType r nnoremap <buffer> <leader>r :w!<CR>:! Rscript %<CR>
     autocmd FileType r ab 5.5 %>%
     autocmd FileType r setlocal softtabstop=2 tabstop=2 shiftwidth=2
     " In text-like files, j/k go up and down a visual line
