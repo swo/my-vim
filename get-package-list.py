@@ -7,12 +7,11 @@ def get_url(fn):
     c.read(fn)
     return c['remote "origin"']["url"]
 
-base_path = os.path.expanduser("~/.vim/pack/plugins/start")
-
+base_path = "start"
 dir_names = os.listdir(base_path)
-config_paths = [os.path.join(base_path, x, ".git", "config") for x in dir_names]
+config_paths = [os.path.join(base_path, x, ".git", "config") for x in dir_names if x != ".placeholder"]
 urls = [get_url(x) for x in config_paths]
 
 data = {dir_name: url for dir_name, url in zip(dir_names, urls)}
 
-print(json.dumps(data))
+print(json.dumps(data, indent=2))

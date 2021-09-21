@@ -1,1 +1,14 @@
-{"goyo.vim": "https://github.com/junegunn/goyo.vim.git", "vim-gitgutter": "https://github.com/airblade/vim-gitgutter.git", "vim-repeat": "https://github.com/tpope/vim-repeat.git", "stan.vim": "https://github.com/maverickg/stan.vim.git", "vim-endoli": "git@github.com:swo/vim-endoli.git", "vim-pencil": "https://github.com/reedes/vim-pencil.git", "vimtex": "https://github.com/lervag/vimtex.git", "vim-snakemake": "https://github.com/burneyy/vim-snakemake.git", "surround": "https://tpope.io/vim/surround.git", "vim-tsv": "https://github.com/pdurbin/vim-tsv.git", "vim-commentary": "https://github.com/tpope/vim-commentary.git", "vim-pandoc-syntax": "https://github.com/vim-pandoc/vim-pandoc-syntax.git"}
+{
+  "vim-surround": "git@github.com:tpope/vim-surround.git",
+  "goyo.vim": "https://github.com/junegunn/goyo.vim.git",
+  "vim-gitgutter": "https://github.com/airblade/vim-gitgutter.git",
+  "vim-repeat": "https://github.com/tpope/vim-repeat.git",
+  "stan.vim": "https://github.com/maverickg/stan.vim.git",
+  ".placeholder": "git@github.com:swo/vim-endoli.git",
+  "vim-endoli": "https://github.com/preservim/vim-pencil.git",
+  "vim-pencil": "https://github.com/lervag/vimtex.git",
+  "vimtex": "https://github.com/burneyy/vim-snakemake.git",
+  "vim-snakemake": "https://github.com/pdurbin/vim-tsv.git",
+  "vim-tsv": "https://github.com/tpope/vim-commentary.git",
+  "vim-commentary": "https://github.com/vim-pandoc/vim-pandoc-syntax.git"
+}
