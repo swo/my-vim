@@ -1,5 +1,5 @@
 {
-  "vim-surround": "git@github.com:tpope/vim-surround.git",
+  "vim-surround": "https://github.com/tpope/vim-surround",
   "goyo.vim": "https://github.com/junegunn/goyo.vim.git",
   "vim-gitgutter": "https://github.com/airblade/vim-gitgutter.git",
   "vim-repeat": "https://github.com/tpope/vim-repeat.git",
