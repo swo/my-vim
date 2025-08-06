@@ -1,3 +1,5 @@
+:web: **This repo is deprecated** in favor of a combination of a more general [dotfiles](https://github.com/webpro/awesome-dotfiles) system and a [vim plugin manager](https://github.com/junegunn/vim-plug).
+
 # My vimrc
 
 This repo helps bootstrap my vim setup, including:
